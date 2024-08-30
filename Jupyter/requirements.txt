@@ -1,0 +1,8 @@
+jupyterlab
+pandas
+numpy
+psycopg2-binary
+scipy
+matplotlib
+pathlib
+scikit-learn
