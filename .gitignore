@@ -3,3 +3,4 @@ transform_data.cpython-312.pyc
 Jupyter/.ipynb_checkpoints/
 Jupyter/Data/
 Data/
+__pycache__/
