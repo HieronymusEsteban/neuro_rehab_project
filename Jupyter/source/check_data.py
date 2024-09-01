@@ -2,7 +2,7 @@ import pandas as pd
 
 def count_unique_subjects_per_hour(data_wide, time_bins):
     """This function counts the number of unique subjects per hour after
-    start of recording."""
+    start of recording. time_bins is a list containing the unique time bins."""
     time_bins.sort()
     subject_counts = []
     for time_bin in time_bins:
