@@ -1,0 +1,2 @@
+
+About the project: This is a collaboration with Dr. med. Gonzenbach, medical director Neurorehabilitation Valens ("Neurologie und Frührehabilitation Kliniken Valens"). I am working on aggregated anonymized data from wearable movement sensors showing movement patterns of patients that underwent neuro-rehabilitation treatment. I am investigating if movement patterns changed from morning to evening. All of my work on this project I do in my spare time.
