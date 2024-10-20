@@ -16,3 +16,21 @@ def count_unique_subjects_per_hour(data_wide, time_bins):
     subjects_per_hour = {'time_bin': time_bins, 'number_unique_subjects': subject_counts}
     subjects_per_hour = pd.DataFrame(subjects_per_hour)
     return subjects_per_hour
+
+
+
+def test_monotony(time_stamp_list):
+    indices = []
+    test_values = []
+    false_result_bools = []
+    #tl = [0, 1, 3, 4]
+    #time_stamps_l = tl
+    for i in range(0,len(time_stamp_list) - 1):
+        #print(i)
+        indices.append(i)
+        test_value = time_stamp_list[i] > time_stamp_list[i+1]
+        test_values.append(test_value)
+        #print(test_value)
+    time_monotony_tests = pd.DataFrame({'index_column': indices, 
+                                    'test_value': test_values}) 
+    return time_monotony_tests  
